@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lista de tarefas</title>
 </head>
 <body>
     <section class="container">
-        <h1>Lista de tarefas</h1>
+        <h1 id="Titulo">Lista de tarefas</h1>
         <div class="taskInputcontainer">
             <input type="text" name="" id="taskInput" placeholder="Digite a tarefa">
                 <input type="radio" name="opcao" id="listaBaixa">
@@ -18,16 +19,20 @@
                     <label for="alta">Alta</label>
             <button>+ Adicionar Tarefa</button>
         </div>
+
         <div id="kanban-board">
-            <div id="div-baixa">
+            <div id="div-baixa" class="divs-prioridade">
                 <h2>Prioridade Baixa</h2>
             </div>
-            <div id="div-media">
+
+            <div id="div-media" class="divs-prioridade">
                 <h2>Prioridade Média</h2>
             </div>
-            <div id="div-alta">
+
+            <div id="div-alta" class="divs-prioridade">
                 <h2>Prioridade Alta</h2>
             </div>
+
         </div>
     </section>
 </body>
