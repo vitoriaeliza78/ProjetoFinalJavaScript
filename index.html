@@ -10,15 +10,25 @@
         <h1>Lista de tarefas</h1>
         <div class="taskInputcontainer">
             <input type="text" name="" id="taskInput" placeholder="Digite a tarefa">
-                <input type="radio" name="baixa" id="listaBaixa">
+                <input type="radio" name="opcao" id="listaBaixa">
                     <label for="baixa">Baixa</label>
-                <input type="radio" name="media" id="listaMedia">
+                <input type="radio" name="opcao" id="listaMedia">
                     <label for="media">Média</label>
-                <input type="radio" name="alto" id="listaAlta">
+                <input type="radio" name="opcao" id="listaAlta">
                     <label for="alta">Alta</label>
-            <button>+</button>
+            <button>+ Adicionar Tarefa</button>
         </div>
-        <ul class="taskList"></ul>
+        <div id="kanban-board">
+            <div id="div-baixa">
+                <h2>Prioridade Baixa</h2>
+            </div>
+            <div id="div-media">
+                <h2>Prioridade Média</h2>
+            </div>
+            <div id="div-alta">
+                <h2>Prioridade Alta</h2>
+            </div>
+        </div>
     </section>
 </body>
 </html>
