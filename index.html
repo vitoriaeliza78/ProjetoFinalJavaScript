@@ -11,15 +11,15 @@
 <body>
     <section class="container">
         <h1 id="Titulo">Lista de tarefas</h1>
-        <div class="taskInputcontainer">
-            <input type="text" name="" id="taskInput" placeholder="Digite a tarefa">
-                <input type="radio" name="opcao" id="listaBaixa">
-                    <label for="baixa">Baixa</label>
-                <input type="radio" name="opcao" id="listaMedia">
-                    <label for="media">Média</label>
-                <input type="radio" name="opcao" id="listaAlta">
-                    <label for="alta">Alta</label>
-            <button>+ Adicionar Tarefa</button>
+         <input type="text" name="" id="taskInput" placeholder="Digite a tarefa">
+        <div class="taskRadiocontainer">
+                <input type="radio" name="opcao" id="listaBaixa" class="radio1">
+                    <label for="baixa" class="label" >Baixa</label>
+                <input type="radio" name="opcao" id="listaMedia" class="radio2">
+                    <label for="media" class="label">Média</label>
+                <input type="radio" name="opcao" id="listaAlta" class="radio3">
+                    <label for="alta" class="label">Alta</label>
+            <button id="button-tarefa">Adicionar Tarefa</button>
         </div>
 
         <div id="kanban-board">

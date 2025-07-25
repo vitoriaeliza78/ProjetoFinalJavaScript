@@ -34,9 +34,47 @@ h1{
     border: none;
     padding: 10px;
     border-radius: 15px;
-    width: 96%;
+    width: 60%;
+    margin-bottom: 20px;
     
 }
+
+.label{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.radio1{
+accent-color: rgb(0, 255, 85);
+background: transparent;
+}
+
+.radio2{
+accent-color: rgb(229, 255, 0);
+background: transparent;
+}
+
+.radio3{
+accent-color: rgb(255, 0, 0);
+background: transparent;
+}
+
+#button-tarefa{
+    padding: 10px;
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-family: 'Poppins';
+    background-color: rgb(211, 164, 255);
+    cursor: pointer;
+ 
+}
+
+#button-tarefa:hover {
+    background-color: rgb(177, 94, 255);
+}
+
+ 
 
 #kanban-board{
     display: flex;
