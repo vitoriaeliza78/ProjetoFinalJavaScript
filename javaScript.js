@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         novaTarefa.style.fontSize= '20px';
         novaTarefa.style.padding='10px';
         novaTarefa.style.backgroundColor='#fff';
-        
+        novaTarefa.style.borderRadius='15px';
         // Cria o texto da tarefa
         let texto = document.createElement('span');
         texto.textContent = textoTarefa;
@@ -38,7 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
         let botaoRemover = document.createElement('button');
         botaoRemover.textContent = 'x';
         botaoRemover.classList.add('botao-remover');
-
+        botaoRemover.style.border='none';
+        botaoRemover.style.marginLeft='20px';
+        botaoRemover.style.cursor='pointer';
         botaoRemover.innerHTML = '<i class="fas fa-trash"></i>';
         // Adiciona o comportamento de clique para remover a tarefa
         botaoRemover.addEventListener('click', function () {
