@@ -89,6 +89,7 @@ background: transparent;
 .divs-prioridade{
     display: flex;
     flex-direction: column;
+    gap: 10px;
     align-items: center;
     width: 40%;
     height: 400px;
@@ -100,7 +101,8 @@ background: transparent;
      font-family: 'Poppins';
      color: rgb(34, 14, 90);
     font-weight: 400;
-
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 #div-baixa h2{
