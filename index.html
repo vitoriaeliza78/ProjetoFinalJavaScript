@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="javaScript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <section class="container">
+        <h1 id="Titulo">Lista de tarefas</h1>
+         <input type="text" name="" id="taskInput" placeholder="Digite a tarefa">
+        <div class="taskRadiocontainer">
+                <input type="radio" name="opcao" id="listaBaixa" class="radio1">
+                    <label for="baixa" class="label" >Baixa</label>
+                <input type="radio" name="opcao" id="listaMedia" class="radio2">
+                    <label for="media" class="label">Média</label>
+                <input type="radio" name="opcao" id="listaAlta" class="radio3">
+                    <label for="alta" class="label">Alta</label>
+            <button id="button-tarefa">Adicionar Tarefa</button>
+        </div>
+
+        <div id="kanban-board">
+            <div id="div-baixa" class="divs-prioridade">
+                <h2>Prioridade Baixa</h2>
+            </div>
+
+            <div id="div-media" class="divs-prioridade">
+                <h2>Prioridade Média</h2>
+            </div>
+
+            <div id="div-alta" class="divs-prioridade">
+                <h2>Prioridade Alta</h2>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
